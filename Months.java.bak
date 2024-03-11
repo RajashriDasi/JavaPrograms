@@ -1,0 +1,44 @@
+class Months
+ {
+ public static void main(String argss[])
+  {
+  int no=5;
+  if(no%2==0)
+  {
+  System.out.println("No is even");
+  }
+  else
+  {
+   System.out.println("You enred a non-decimal no");
+   }
+  switch(no)
+   {
+   case 1->System.out.println("Janewary");
+   
+   case 2->System.out.println("Februwary");
+   
+   case 3->System.out.println("March");
+   
+   case 4->System.out.println("April");
+   
+   case 5->System.out.println("May");
+   
+   case 6->System.out.println("June");
+   
+   case 7->System.out.println("July");
+   
+   case 8->System.out.println("August");
+   
+   case 9->System.out.println("Septebar");
+   
+   case 10->System.out.println("Octobar");
+   
+   case 11->System.out.println("Novembar");
+   
+   case 12->System.out.println("Decembar");
+   
+   default->System.out.println("The no is not valid");
+   }
+   }
+   }
+   
